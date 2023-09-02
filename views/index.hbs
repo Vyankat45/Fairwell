@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Farewell Card</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include custom CSS -->
+    <style>
+
+         body {
+            background-image: url('https://img.freepik.com/free-vector/party-crowd-silhouettes-dancing-nightclub_1048-11557.jpg?w=900&t=st=1693560039~exp=1693560639~hmac=886939bd6a554467d4aa8fc902bb27e0babe5b33d22c30e069147b60c166069c'); /* Replace 'background.jpg' with the actual file path of your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Custom CSS */
+
+        .card {
+            margin: 50px auto;
+            max-width: 400px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .card-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .card-body {
+            text-align: center;
+            background-color: #333;
+        }
+
+        .input-group {
+            margin-top: 20px;
+        }
+
+        .input-group input {
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    margin: 10px 0; /* Add spacing around paragraphs */
+    color: #333; /* Text color */
+    text-align: left; /* Align text to the left */
+}
+
+/* Optional: Add different styles for specific <p> tags with classes */
+p.special {
+    font-weight: bold; /* Make text bold for <p class="special"> */
+    color: #007bff; /* Change text color for special paragraphs */
+}
+
+p.note {
+    font-style: italic; /* Make text italic for <p class="note"> */
+    color: #888; /* Change text color for note paragraphs */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Farewell</h4>
+                    </div>
+                    <div class="card-body">
+                       
+     <p class="special">we're organizing a Farewell Party!</p>
+    <p class="note">Please RSVP by filling out the form below to confirm your attendance
+        and let us know if you can make it to celebrate this special occasion with us!</p>
+
+
+                        <form method="post" action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="newName" name="name" placeholder="Enter Your Name....">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="newCourse" name="course" placeholder="Course Name...">
+                        </div>
+                        <button class="btn btn-primary mt-3">submit</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+</body>
+</html>
